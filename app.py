@@ -9,7 +9,7 @@ from markupsafe import escape
 
 
 app= Flask(__name__)
-
+app.run(debug=True)
 
 @app.route('/')
 @app.route('/home')
